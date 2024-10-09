@@ -121,7 +121,7 @@ def print_tokens_with_counts(tokens, comments, example_number):
     
     #displaying lexemes and tokens as a table
     print("-" * 60)
-    print(f"{'Category (Lexemes)':<20} | Tokens")
+    print(f"{'Category (Tokens)':<20} | Lexemes")
     print("-" * 60)
 
     #display the tokens in each category
