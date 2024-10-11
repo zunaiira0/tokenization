@@ -1,3 +1,5 @@
+#CPSC 323 Project 1 - by Zunaira Rahat
+
 import re
 
 def remove_block_comments(code):
@@ -20,7 +22,6 @@ def remove_block_comments(code):
                 in_block_comment = False
                 comment_continuation +=line
                 comments.append(comment_continuation)
-            #comments.append(line)
         
         #continuation in block comment      
         elif in_block_comment:
@@ -119,9 +120,9 @@ def print_tokens_with_counts(tokens, comments, example_number):
     elif example_number == 2:
         print('"""\nPython example with variables and a loop\n"""')
     
-    #displaying lexemes and tokens as a table
+    #displaying categories and tokens as a table
     print("-" * 60)
-    print(f"{'Category (Tokens)':<20} | Lexemes")
+    print(f"{'Category':<20} | Tokens")
     print("-" * 60)
 
     #display the tokens in each category
